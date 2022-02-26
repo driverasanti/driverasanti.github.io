@@ -1153,24 +1153,24 @@ a:focus {
 /*------------------------------------------------------------------*/
 /*	12) Portfolio Section
 /*------------------------------------------------------------------*/
-#portfolio{
+#portfolio, .portfolio{
 	padding: 150px 0 39px;
 	overflow: hidden;
 }
-#portfolio .noright .roww{
+#portfolio .noright .roww, .portfolio .noright .roww{
 	overflow: hidden;
 }
-#portfolio .resumo_fn_main_title{
+#portfolio .resumo_fn_main_title, .portfolio .resumo_fn_main_title{
 	margin-bottom: 70px;
 	padding-right: 100px;
 	position: relative;
 }
-#portfolio .img_holder{
+#portfolio .img_holder., portfolio .img_holder{
 	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
-#portfolio .abs_img{
+#portfolio .abs_img, .portfolio .abs_img{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1181,28 +1181,28 @@ a:focus {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
-#portfolio .img_holder img{
+#portfolio .img_holder img, .portfolio .img_holder img{
 	margin-bottom: -24%;
 	opacity: 0 !important;
 	max-height: 370px;
 }
-#portfolio .title_holder{
+#portfolio .title_holder, .portfolio .title_holder{
 	padding-top: 26px;
 }
-#portfolio .title_holder p{
+#portfolio .title_holder p, .portfolio .title_holder p{
 	margin: 0;
 	padding: 0;
 	margin-bottom: 8px;
 }
-#portfolio .title_holder h3{
+#portfolio .title_holder h3, .portfolio .title_holder h3{
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
 }
-#portfolio .title_holder h3 a{
+#portfolio .title_holder h3 a, .portfolio .title_holder h3 a{
 	text-decoration: none;
 }
-#portfolio .my__nav{
+#portfolio .my__nav, .portfolio .my__nav{
 	position: absolute;
 	right: 0;
 	widows: auto;

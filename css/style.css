@@ -1207,6 +1207,18 @@ a:focus {
 	right: 0;
 	widows: auto;
 }
+#portfolio .item a,  .portfolio .item a{
+	text-decoration: none;
+}
+#portfolio .item p,  .portfolio .item p {
+	color: var(--tc)
+}
+#portfolio .item h3,  .portfolio .item h3{
+	transition: all 0.3s ease-in-out;
+}
+#portfolio .item:hover h3,  .portfolio .item:hover h3{
+	color: var(--mc);
+}
 .my__nav{
 	display: -webkit-flex;
 	display: -moz-flex;

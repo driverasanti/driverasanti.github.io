@@ -2689,6 +2689,11 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 .fn__nav a.next:hover .arrow_wrapper{
 	transform: translateX(-15px);
 }
+.responsive-img img{
+	width: 100%;
+	height: auto;
+	margin-top: 12px;
+}
 @media(max-width: 1040px){
 	.resumo_fn_modalbox .box_inner{max-width: 90%;}
 	.resumo_fn_modalbox .modal_in{padding-left: 20px;padding-right: 20px;}

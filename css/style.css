@@ -1219,6 +1219,9 @@ a:focus {
 #portfolio .item:hover h3,  .portfolio .item:hover h3{
 	color: var(--mc);
 }
+iframe {
+	width: 100%;
+}
 .my__nav{
 	display: -webkit-flex;
 	display: -moz-flex;

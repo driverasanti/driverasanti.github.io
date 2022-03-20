@@ -356,10 +356,10 @@
 		},
 		
 		portfolioCarousel: function(){
-			var owl 		= $('#portfolio .owl-carousel');
+			var owl 		= $('.portfolio .owl-carousel');
 			owl.each(function(){
 				var el 		= $(this);
-				var parent	= el.closest('#portfolio');
+				var parent	= el.closest('.portfolio');
 				el.owlCarousel({
 					autoplay: true,
 					autoplayTimeout: 7000,

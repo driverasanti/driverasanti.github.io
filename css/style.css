@@ -2709,6 +2709,9 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb{border-co
 	height: auto;
 	margin-top: 12px;
 }
+.mt-1 {
+	margin-top: 60px;
+}
 @media(max-width: 1040px){
 	.resumo_fn_modalbox .box_inner{max-width: 90%;}
 	.resumo_fn_modalbox .modal_in{padding-left: 20px;padding-right: 20px;}

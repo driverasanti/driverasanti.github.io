@@ -3164,3 +3164,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb {
 		display: none;
 	}
 }
+
+#customers .item {
+    cursor: unset;
+}
